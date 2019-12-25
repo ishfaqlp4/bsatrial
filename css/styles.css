@@ -1,0 +1,232 @@
+body {
+  background-image: url(../icons/output-onlinepngtools.png);
+  background-attachment: fixed;
+  background-size: contain;
+  background-blend-mode: darken;
+  background-color: #004a2f;
+  font-family: 'Merriweather', sans-serif;
+  color: black;
+  margin-top: 110px;
+  padding: 0;
+  height: 100%;
+}
+
+h2 {
+  padding: 25px 0 20px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+h6 {
+  margin: 0;
+}
+
+hr {
+  width: 20%;
+  border-color: black;
+  opacity: 0.5;
+}
+
+.btn {
+  background-color: #b22222;
+}
+.btn:hover {
+  color:black;
+}
+/*navigation bar css*/
+.navbar {
+  padding-bottom: 0;
+  opacity: 0.8;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: black;
+  line-height: 3;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 1rem;
+}
+
+
+.navbar-toggler {
+  background-color: #b22222;
+  font-size: 1.5em;
+  border-radius: 10%;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+/*title css*/
+.main-title {
+  font-size: 1.5rem;
+  line-height: 0.9;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.subtitle {
+  font-size: 0.6em;
+  color: #b22222;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+}
+
+.carousel-item {
+  height: 535px;
+}
+
+/*video element css*/
+iframe {
+  display: block;
+  margin: auto;
+}
+
+.iframe-container {
+  background-color: black;
+  margin-top: 100px;
+  border-style: solid none solid none;
+}
+
+/*about us css*/
+.about-us-container {
+  background-color: #b22222;
+  padding: 0 50px 0 50px;
+  margin-top: 130px;
+  border-style: solid none solid none;
+}
+
+.about-us-hr {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-text-1 {
+  text-align: left;
+  font-size: 1.25em;
+  margin: auto;
+  line-height: 2;
+}
+
+.about-text-2 {
+  text-align: right;
+  font-size: 1.25em;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 2;
+}
+
+/*upcoming events css*/
+.upcoming-events {
+  background-color: black;
+  margin: 100px 0;
+  border-style: solid none solid none;
+  color: white;
+}
+
+.table {
+  color: white;
+}
+
+/*buttom button css*/
+.buttons {
+  background-color: black;
+  padding: 8px 0 8px 0;
+}
+
+.btn {
+  margin: 10px 50px 10px 0;
+}
+
+/*footer css*/
+.footer-container {
+  padding: 10px 0 0 0;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer-image {
+  margin-left: 30px;
+}
+
+/*Smaller Screens*/
+@media (min-width: 767px) and (max-width:992px) {
+  body {
+    font-size: 175%;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+
+  .main-title {
+    font-size: 2em;
+  }
+
+  .subtitle {
+    font-size: 0.7em;
+  }
+
+  .about-text-1 {
+    text-align: center;
+  }
+
+  .about-text-2 {
+    text-align: center;
+  }
+
+  .dropdown-item {
+    color: white;
+    font-size: 2.1em;
+  }
+
+  .navbar-brand img {
+    visibility: hidden;
+  }
+
+  .btn-danger {
+    font-size: 1.25em;
+  }
+
+  .footer-container {
+    font-size: 1em;
+  }
+
+  .footer-container img {
+    height: 75px;
+    width: auto;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.5em;
+  }
+  .carousel-item {
+    margin-top: 150px;
+
+
+  }
+  .iframe-container {
+    margin-top: 0px;
+  }
+}
+
+
+/*end of css stylesheet created by Mohd Khan*/

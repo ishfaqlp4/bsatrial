@@ -1,0 +1,271 @@
+body {
+  background-color: #004a2f;
+  font-family: 'Merriweather', sans-serif;
+  color: black;
+  margin-top:86px;
+  padding:0;
+  height: 100%;
+}
+
+
+h2 {
+padding: 25px 0 20px 0;
+font-family: 'Montserrat', sans-serif;
+font-size: 2em;
+text-align: center;
+}
+h4 {
+  text-align: center;
+  font-weight: 900;
+}
+h5 {
+  font-weight: 900;
+}
+
+h6 {
+  margin: 0;
+}
+
+hr {
+  width: 20%;
+  border-color: black;
+  opacity: 0.5;
+}
+#dlguide {
+  text-decoration: underline;
+}
+#testing-link {
+  text-decoration: underline;
+}
+#vlightbox1 {
+  text-align: center;
+  margin: 100px 0;
+}
+
+/*navigation bar css*/
+.navbar {
+  padding-bottom: 0;
+  opacity: 0.8;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: black;
+  line-height: 3;
+}
+.dropdown-item {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 1rem;
+  }
+
+
+.navbar-toggler {
+  background-color: #b22222;
+  font-size: 1.5em;
+  border-radius: 10%;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+/*title css*/
+.main-title {
+  font-size: 1.5rem;
+  line-height: 0.9;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.subtitle {
+  font-size: 0.6em;
+  color:#b22222;
+  font-family:'Merriweather', sans-serif;
+  font-weight: bold;
+  }
+
+/*footer css*/
+.footer-container {
+  padding: 10px 0 0 0;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.footer-image {
+  margin-left: 30px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!ALUMNIPAGE!!!!!!!!!!!!!!!!!!!! */
+.place-holder {
+  margin: 50px 0;
+}
+
+
+
+/*board member, general members and alumni page css*/
+.profile {
+  background-color: #b22222;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 50px;
+  border-style: solid;
+  border-width: thin;
+  }
+.profile-header {
+  margin-top: 50px;
+  text-align: left;
+  font-weight: 900;
+}
+
+a {
+  color:black;
+}
+
+a:hover {
+  text-decoration: none;
+  color:black;
+}
+
+
+/* !!!!!!!!!!!Alumi!!!!!!!!! */
+.alumni {
+  background-color: #da2d2d;
+  border-bottom: solid;
+  text-align: center;
+  padding: 0;
+
+}
+.card-modify {
+  width: 375px;
+  background-color: #b22222;
+  font-weight:700;
+}
+.card-body {
+  padding: 0 20px;
+}
+
+
+/* New Student Header */
+.page-header {
+  background-color: #b22222;
+}
+
+.incoming-sub-header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 3% 9%;
+  font-size: 1.2rem;
+}
+/* Questions */
+/* .faq-container {
+  padding: 0;
+}
+#accordion {
+
+} */
+/* important links */
+.links-container {
+  background-color: Black;
+  color: white;
+  line-height: 3;
+  padding: 0 0 30px 0;
+  margin: 50px 0;
+}
+.link-header {
+  padding: 15px 0;
+  background-color: #b22222;
+}
+
+.map {
+  background-color: #f9f6f7;
+  padding: 50px 100px;
+  margin: 50px 0;
+}
+/* list */
+.list {
+  font-weight: 900;
+  color: white;
+
+}
+.list:hover {
+  color:#b22222;
+  text-decoration: none;
+
+}
+.list1 {
+  list-style: none;
+  counter-reset: item;
+  margin: 3% 0 3% 0;
+}
+.list2 {
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+.list2:before {
+  margin-right: 10px;
+  content: counter(item);
+  background: #b22222;
+  border-radius: 100%;
+  color: white;
+  width: 3em;
+  text-align: center;
+  display: inline-block;
+}
+/*Smaller Screens*/
+@media (min-width: 767px) and (max-width:992px){
+
+body{
+  font-size: 175%;
+  margin-top: 135px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+.main-title {
+  font-size: 2em;}
+
+.subtitle {
+  font-size: 0.7em;}
+
+  .about-text-1 {
+
+    text-align: center;}
+  .about-text-2 {
+    text-align: center;}
+
+    .dropdown-item {
+      color: white;
+      font-size: 2.1em;
+      }
+  .navbar-brand img {
+    visibility: hidden;
+  }
+
+  .footer-container{
+    font-size: 1em;
+  }
+  .footer-container img{
+    height: 75px;
+    width: auto;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.5em;
+  }
+}
+
+
+
+
+
+
+/*end of css stylesheet created by Mohd Khan*/
