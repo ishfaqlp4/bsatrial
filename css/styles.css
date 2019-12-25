@@ -163,7 +163,7 @@ iframe {
 /*Smaller Screens*/
 @media (min-width: 767px) and (max-width:992px) {
   body {
-    font-size: 175%;
+    font-size: 150%;
     margin-top: 50px;
     font-weight: bold;
   }
@@ -178,11 +178,11 @@ iframe {
 
 
   .main-title {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .subtitle {
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
 
   .about-text-1 {
@@ -195,7 +195,7 @@ iframe {
 
   .dropdown-item {
     color: white;
-    font-size: 2.1em;
+    font-size: 1.5em;
   }
 
   .navbar-brand img {
@@ -216,7 +216,7 @@ iframe {
   }
 
   .navbar-light .navbar-nav .nav-link {
-    font-size: 1.5em;
+    font-size: 1.15em;
   }
   .carousel-item {
     margin-top: 150px;
